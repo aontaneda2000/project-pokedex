@@ -1,0 +1,117 @@
+.section__title {
+  font-size: 1.5rem;
+}
+
+.section__container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  border: 2px solid;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0 1rem 0;
+}
+
+.pokemon__card {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid;
+
+  gap: 1rem;
+  width: 300px;
+  height: 650px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.pokemon__img {
+  width: 200px;
+}
+
+.pokemon__card-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Segunda clase para el Fondo del header */
+.bg-fire {
+  background: linear-gradient(
+    176.37deg,
+    #f96d6f -32.26%,
+    #e35825 22.55%,
+    #e8ae1b 125.72%
+  );
+}
+
+.bg-water {
+  background: linear-gradient(
+    179.57deg,
+    #133258 -70.14%,
+    #1479fb 56.16%,
+    #82b2f1 214.85%
+  );
+}
+
+.bg-grass {
+  background: linear-gradient(
+    178.92deg,
+    #7ec6c5 0.92%,
+    #abdac6 47.96%,
+    #cae099 99.08%
+  );
+}
+.bg-normal {
+  background: linear-gradient(
+    179.75deg,
+    #478a93 -19.96%,
+    #56a4ae 43.67%,
+    #a2bec1 138.4%
+  );
+}
+.bg-bug {
+  background: linear-gradient(
+    177.56deg,
+    #62db60 -58.92%,
+    #3bb039 16.57%,
+    #aaffa8 209.53%
+  );
+}
+
+.pokemon__card-nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-left: 2rem;
+}
+hr {
+  margin: 0;
+  padding-left: 0;
+}
+ul {
+  padding: 0;
+}
+.body {
+  text-align: center;
+}
+/* .section__pokemons :not(header) {
+  padding: 1rem;
+} */
+
+/* Mobile First */
+/*=============== BREAKPOINTS ===============*/
+/* Dispositivos pequeños */
+@media screen and (min-width: 320px) {
+}

@@ -1,0 +1,14 @@
+.form__btn {
+  border: none;
+  padding: 1rem 3rem;
+  background-color: #d93f3f;
+  color: #fff;
+  cursor: pointer;
+}
+.form__btn:hover {
+  background-color: #ce1f1f;
+}
+
+.form__input {
+  padding: 1rem 1rem;
+}

@@ -1,0 +1,30 @@
+:root {
+}
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-size: 16px;
+  font-family: serif;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  font-family: serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style: none;
+}
